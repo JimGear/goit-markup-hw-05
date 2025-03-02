@@ -738,7 +738,7 @@ address {
     fill: #4D5AE5;
 }
 
-.icon-modal-mail {
+.icon-modal-email {
     position: absolute;
     left: 16px;
     top: 50%;
@@ -746,7 +746,7 @@ address {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-modal-mail:focus {
+.icon-modal-email:focus {
     fill: #4D5AE5;
 }
 
