@@ -779,7 +779,7 @@ address {
     color: #4d5ae5;
 }
 
-.user-privacy:checked+.user-privacy-box {
+.visually-hidden:checked+.user-privacy-box {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
