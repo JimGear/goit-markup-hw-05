@@ -418,10 +418,19 @@
                 </ul>
             </div>
             <div class="footer-form-box">
-                <label class="footer-form-label" for="footer-input-email"> Subscribe</label>
-                <input id="footer-input-email" class="footer-email-input" type="email" placeholder="E-mail">
-
-                <button type="submit" class="footer-btn">Subscribe</button>
+                <p class="footer-form-text">Subscribe</p>
+                <form action="footer-form">
+                    <label class="footer-form-label" for="footer-input-email">
+                        <input id="footer-input-email" class="footer-input-email" type="email" placeholder="E-mail"
+                            name="email">
+                    </label>
+                    <button type="submit" class="footer-btn">
+                        Subscribe
+                        <svg class="icon-btn" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
             </div>
         </div>
 
