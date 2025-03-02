@@ -681,7 +681,7 @@ address {
     margin-bottom: 8px;
 }
 
-.form-name {
+.form-label-title {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -695,8 +695,12 @@ address {
     position: relative;
 }
 
-.modal-form-input:focus {
+.modal-input:focus {
     border-color: #4D5AE5;
+}
+
+.modal-input:focus+svg {
+    fill: #4D5AE5;
 }
 
 .modal-input {
@@ -720,7 +724,30 @@ address {
 
 .icon-modal-person:focus {
     fill: #4D5AE5;
+}
 
+.icon-modal-phone {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-modal-phone:focus {
+    fill: #4D5AE5;
+}
+
+.icon-modal-mail {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-modal-mail:focus {
+    fill: #4D5AE5;
 }
 
 /* End Modal */
